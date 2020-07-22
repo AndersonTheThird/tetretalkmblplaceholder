@@ -23,7 +23,7 @@
       <v-main>
          
       </v-main>
-             <v-bottom-navigation button>
+             <v-bottom-navigation v-model="bottomNav" button>
                
 <v-btn value="favorites">
       <span>Favorites</span>
@@ -52,7 +52,7 @@ var app = new Vue({
     }
   }),
   data: {
-    test: "Testing stuffs"
+    bottomNav: "home"
   }
 });
   </script>
