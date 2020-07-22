@@ -22,14 +22,20 @@
 Hello
       </v-main>
              <v-bottom-navigation button>
-    <v-btn value="recent">
+               
+<v-btn value="favorites">
+      <span>Favorites</span>
+      <v-icon>mdi-star</v-icon>
+    </v-btn>
+            
+                   <v-btn value="home" active>
       <span>Home</span>
       <v-icon>mdi-home</v-icon>
     </v-btn>
-
-    <v-btn value="favorites">
-      <span>Favorites</span>
-      <v-icon>mdi-star</v-icon>
+               
+    <v-btn value="search">
+      <span>search</span>
+      <v-icon>mdi-search</v-icon>
     </v-btn>
   </v-bottom-navigation>
     </v-app>
