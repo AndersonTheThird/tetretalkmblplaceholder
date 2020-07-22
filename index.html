@@ -23,8 +23,15 @@
       <v-main>
          Coming soon
       </v-main>
-             <v-bottom-navigation v-model="bottomNav" grow shift button>
+
+<v-bottom-navigation v-model="bottomNav" grow shift button>
                
+<v-btn value="recents">
+      <span>Recent</span>
+      <v-icon>mdi-history</v-icon>
+    </v-btn>
+
+            
 <v-btn value="favorites">
       <span>Favorites</span>
       <v-icon>mdi-star</v-icon>
